@@ -1,0 +1,186 @@
+@media only screen and (min-width:1100px) and (max-width:2000px){
+    
+    header::before {
+        height: 101.7%;
+    }
+    nav {
+        justify-content: space-around;
+        background-color: #052c6e;
+        height: 3em;
+        width: 100%;
+        left: 0em;
+        right: 0em;
+        color: white;
+        
+       
+        
+    }
+    
+    #logoname {
+        font-size: 1.5em;
+    font-weight: 500;
+    padding-right: 0em;
+    padding-left: 6em;
+    color: #9baac9;
+    }
+    
+    
+    
+    
+    #item-list li a {
+       
+        padding: 2px 30px;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #84a5c1;
+    }
+    
+    
+    
+    
+    /* main section   section1...................................... */
+   
+    .container1 h1{
+        font-size: 5em;
+    }
+    .container1 p{
+        font-size: 1.3em;
+    }
+    
+    
+    .btn1{
+        width: 8em;
+    height: 1.9em;
+    padding: 0 1em;
+    font-size: 1.3em;
+        
+    }
+    
+    
+    
+    
+    /* this is for section2 ...................................... */
+    #section2{
+        height: 107vh;
+    }
+    .container2{
+        width: 77%;
+    }
+    #img2 img{
+        height: 80px;
+        width: 80px;
+    }
+    
+    #content2 p{
+        font-size: .8em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+    
+    .container21{
+        width: 51%;
+        margin-bottom: 50px;
+    }
+    
+    
+    
+    
+    
+    /* this is for section3 ................................ */
+    #section3{
+        padding-top: 3em;
+    }
+    
+    #section3 h2{
+        color: #2d587c;
+    }
+    
+    .container3{
+        width: 79%;
+        margin: 2em auto;
+    
+    }
+    .service{
+        width: 30em;
+        height: 26em;
+        margin: 1.8em;
+       
+        
+    }
+    
+    .heading3 img{
+        height: 35px;
+        width: 35px;   
+    }
+    
+    
+    .subject h2{
+        font-size: 1.4em;
+    
+    }
+    
+    .content3 p{
+        font-size: 1.4em;
+        padding: 1em 1em;
+        
+    }
+    
+    .readmore a:hover{
+        color: blue;
+    }
+   
+    
+    
+    /* this is for section4............................ */
+    
+    #section4 h2{
+        color: #2d587c;
+    }
+    
+    .container4{
+        width: 76%;
+        margin: 4.4vh auto;
+        height: 30vh;
+        
+    
+    }
+    .box4{
+        width: 280px;
+        height: 217px;
+        margin: 2px -5px;
+       
+       
+    }
+    .box4 h3{
+        font-size: 1.5em; 
+    }
+    
+    .content4{
+        padding-bottom: 1em;
+        font-size: 1.4em; 
+    }
+    
+    
+    
+    @keyframes btn_animation{
+        
+        30%{
+            background-color: #aab7dd;
+        }
+        70%{
+            background-color: #6578b0;
+        }
+        100%{
+           
+        }
+    }
+    
+    
+    
+    /* this is for footer .............................. */
+    
+    
+    
+    
+    
+    }

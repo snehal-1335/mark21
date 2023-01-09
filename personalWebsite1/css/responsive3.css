@@ -1,0 +1,253 @@
+@media only screen  and (max-width:1000px){
+    
+    header::before {
+        height: 262.7%;
+    padding-left: 35em;
+    width: 163%;
+}
+    nav {
+        justify-content: space-around;
+        background-color: #052c6e;
+        height: 5em;
+        width: 100%;
+        left: 0em;
+        right: 0em;
+        color: white;
+        
+       
+        
+    }
+    
+    #logoname {
+        font-size: 2.5em;
+        font-weight: 500;
+        padding-right: 0em;
+        padding-left: 3em;
+        color: #9baac9;
+    }
+    
+    #item-list {
+    
+    }
+    
+    
+    #item-list li a {
+       
+        padding: 3px 35px;
+        font-size: 1.4em;
+        font-weight: 500;
+        color: #84a5c1;
+    }
+    #item-list li a:hover {
+    }
+    
+    
+    
+    /* main section   section1...................................... */
+    #section1{
+        height: 109%;
+    }
+    
+    .container1{
+        padding-left: 18em;
+        width: 100%;
+    }
+    
+    .container1 h1{
+        font-size: 3em;
+        margin-top: 11em;
+    }
+    .container1 p{
+        font-size: 1em;
+    }
+    
+    .btns{
+    }
+    .btn1{
+        width: 9em;
+        height: 2.9em;
+        padding: 0 2em;
+        font-size: 1.6em;
+        
+    }
+    .btn1:hover{
+    }
+    
+    
+    
+    /* this is for section2 ...................................... */
+    #section2{
+        height: 161vh;
+}
+    .container2{
+        padding-left: 34em;
+        padding-top: 22em;
+    }
+    #img2 img{
+        height: 80px;
+        width: 80px;
+    }
+    #content2{
+    }
+    #content2 h1{
+    
+    }
+    #content2 p{
+        font-size: .8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    width: 20em;
+    }
+    
+    .container21{
+        padding-left: 11em;
+        padding-top: 12em;
+    }
+    
+    
+    
+    
+    
+    /* this is for section3 ................................ */
+    #section3{
+        padding-top: 16em;
+
+    }
+    #section3,h2{
+    
+    }
+    #section3 h2{
+        color: #2d587c;
+    }
+    
+    .container3{
+        width: 40%;
+        margin: 2em auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3em;
+    }
+    .service{
+        width: 53em;
+    height: 24em;
+    margin: 4em;
+        
+    }
+    .service:hover{
+      
+       
+        
+    }
+    
+    .heading3{
+        
+    
+    }
+    .heading3 img{
+        height: 35px;
+        width: 35px;   
+    }
+    
+    
+    .subject h2{
+        font-size: 1.4em;
+    
+    }
+    
+    .content3 p{
+        font-size: 1.4em;
+        
+    }
+    
+    .readmore a:hover{
+        color: blue;
+    }
+    hr{
+       
+    }
+    
+    
+    
+    /* this is for section4............................ */
+    #section4{
+        
+    }
+    #section4 h2{
+        color: #2d587c;
+    }
+    
+    .container4{
+        width: 148%;
+        margin: 4.4vh auto;
+        height: 30vh;
+        padding-left: 20em;
+        background-color: white;
+    }
+    .box4{
+        width: 228px;
+        height: 217px;
+        margin: 2px -5px;
+        padding: 3em;
+    }
+    }
+    .box4 h3{
+        font-size: 1.2em;
+
+    }
+    
+    .content4{
+        padding-bottom: 1em;
+        font-size: 1.4em; 
+    }
+    
+    .btn4 {
+       
+      }
+      
+      .btn4:hover {
+        
+      }
+    
+    @keyframes btn_animation{
+        
+        30%{
+            background-color: #aab7dd;
+        }
+        70%{
+            background-color: #6578b0;
+        }
+        100%{
+           
+        }
+    }
+    
+    
+    
+    /* this is for footer .............................. */
+    #footer{
+        background-color:white;
+        width: 68em;
+        padding-left: 24px;
+    
+    
+    }
+    .footer_container{
+        
+       
+    }
+    #cpyright{
+        
+    }
+    #cpyright p{
+        text-align: center;
+    }
+    #getme{
+        display: flex;
+        
+    }
+    
+    
+    
+    
+    

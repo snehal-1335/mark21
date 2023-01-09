@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header::before {
+    content: " ";
+    position: absolute;
+    background: url(../images/mountain-7526925_1920.jpg);
+    background-size: cover;
+    height: 102.7%;
+    width: 100%;
+    z-index: -1;
+    top: -18px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: cornflowerblue; */
+    height: 6em;
+    align-items: center;
+    position: fixed;
+    left: 23em;
+    right: 15em;
+}
+
+#logoname {
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-shadow: 10px 3px 21px rgb(12 8 67);
+}
+
+#item-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0 8em;
+
+}
+
+#item-list li {
+    list-style: none;
+}
+
+#item-list li a {
+    text-decoration: none;
+    padding: 3px 33px;
+    color: black;
+    font-size: .9em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#item-list li a:hover {
+    background-color: #191b20;
+    border-radius: 30px;
+}
+
+
+
+/* main section   section1...................................... */
+#section1{
+    height: 100vh;
+}
+
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 h1{
+    font-size: 5em;
+    font-family: 'Sacramento',cursive;
+    color: #052c6e;
+    margin-top: 2em;
+
+}
+.container1 p{
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.btns{
+    /* background-color: #052c6e; */
+    margin-top: 4em;
+}
+.btn1{
+    width: 9em;
+    height: 2.4em;
+    padding: 0 2em;
+    margin: 0 2em;
+    border: 2px solid #b5d2e996;
+    border-radius: 17px;
+    background-color: #1f255f;
+    color: white;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+.btn1:hover{
+    background-color: #1a3cb6;
+    color: rgb(192, 203, 236);
+    border-color: rgb(75, 128, 166);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+/* this is for section2 ...................................... */
+#section2{
+    height: 112vh;
+}
+.container2{
+    width: 66%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 13em;
+    justify-content: end;
+    align-items: flex-start;
+}
+#img2 img{
+    height: 60px;
+    width: 60px;
+    margin-right: 1em;
+    border: 2px solid #c4c4dc;
+    border-radius: 63px;
+}
+#content2{
+    font-family: cursive;
+    font-size: 2em;
+    /* color: #5f6da0; */
+}
+#content2 h1{
+    color: #2d587c;
+    font-size: 1em;
+}
+#content2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .5em;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+.container21{
+    width: 49%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 6em;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* this is for section3 ................................ */
+#section3{
+    font-family: 'Times New Roman', Times, serif;
+}
+#section3,h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#section3 h2{
+    color: #2d587c;
+}
+
+.container3{
+     width: 75%;
+     margin: 2em auto;
+     display: flex;
+     /* background-color: #5f6da0; */
+
+}
+.service{
+    width: 20em;
+    height: 20em;
+    margin: 2em;
+    border-radius: 20px;
+    background-color: #eceff8;
+    transition: all .2s ease-in;
+   
+    
+}
+.service:hover{
+    background-color: rgb(237, 245, 254);
+   
+    
+}
+
+.heading3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2em;
+
+}
+.heading3 img{
+    height: 30px;
+    width: 30px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.subject h2{
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.content3 p{
+    text-align: justify;
+    padding: 2em 1em;
+    
+}
+
+.readmore a:hover{
+    color: blue;
+}
+hr{
+    border: 6px dotted #2e894361;
+    border-bottom: none;
+    width: 53px;
+    margin: 7px auto;
+}
+
+
+
+/* this is for section4............................ */
+#section4{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#section4 h2{
+    color: #2d587c;
+}
+
+.container4{
+    width: 66% ;
+    margin: 4.4vh auto;
+    background-color: #eceff8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    
+
+}
+.box4{
+    width: 228px;
+    height: 200px;
+    margin: 2px 5px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box4 h3{
+    color: #2d587c;
+    margin-bottom: 1em;
+}
+
+.content4{
+    padding-bottom: 2em;
+}
+
+.btn4 {
+    background: #80b4d6;
+    background-image: -webkit-linear-gradient(top, #80b4d6, #4e84e6);
+    background-image: -moz-linear-gradient(top, #80b4d6, #4e84e6);
+    background-image: -ms-linear-gradient(top, #80b4d6, #4e84e6);
+    background-image: -o-linear-gradient(top, #80b4d6, #4e84e6);
+    background-image: linear-gradient(to bottom, #1b80c3, #5c7fbe);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    /* text-shadow: 0px 1px 14px #72ccbf; */
+    font-family: Georgia;
+    color: #e5edf0;
+    font-size: 16px;
+    padding: 1px 46px 1px 46px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn4:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+@keyframes btn_animation{
+    
+    30%{
+        background-color: #aab7dd;
+    }
+    70%{
+        background-color: #6578b0;
+    }
+    100%{
+        background-color: #2a4492;
+    }
+}
+
+
+
+/* this is for footer .............................. */
+/* #footer{
+   
+
+} */
+.footer_container{
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: space-around;
+   
+}
+#cpyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cpyright p{
+    font-size: .7em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#getme a img{
+    height: 15px;
+    width: 15px;
+    padding: 20px 12px;
+}
+
+
+
+
+
+
